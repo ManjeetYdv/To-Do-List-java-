@@ -39,7 +39,7 @@ td {
 			<br>
 			<br>
 			<h3>Tasks: </h3><br>
-		  <sql:setDataSource var="db" driver="com.mysql.jdbc.Driver" url="jdbc:mysql://localhost:3306/todo" user="Manjeet" password="HAha1100@"/>
+		  <sql:setDataSource var="db" driver="com.mysql.jdbc.Driver" url="jdbc:mysql://localhost:3306/todo" user="Manjeet" password="hehe"/>
            
            <sql:query var="res" dataSource="${db}">Select * from tasktable</sql:query> 
            
