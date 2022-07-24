@@ -1,1 +1,1 @@
-# To-Do-List using Java Servlets JSP JDBC
+Basic To-Do-List using Java Servlets JSP JDBC
