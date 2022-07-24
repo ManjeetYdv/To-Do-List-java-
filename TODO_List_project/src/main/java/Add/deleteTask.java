@@ -22,7 +22,7 @@ public class deleteTask extends HttpServlet {
 		
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
-			Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/todo" , "Manjeet" ,"HAha1100@");
+			Connection connection = DriverManager.getConnection("jdbc:mysql://localhost:3306/todo" , "Manjeet" ,"hehe");
 			Statement statement = connection.createStatement();
 			String queryString ="delete from tasktable where id ="+id;
 			
